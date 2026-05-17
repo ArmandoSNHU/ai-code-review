@@ -1,0 +1,6 @@
+# No external dependencies required.
+# Standard library only: urllib, concurrent.futures, json, threading, pathlib, argparse
+#
+# Runtime dependency (not pip-installable):
+#   Ollama — https://ollama.ai
+#   Models: whiterabbitneo, qwen3:8b, mistral, llama3.2:1b

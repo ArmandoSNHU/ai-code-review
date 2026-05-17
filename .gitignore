@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Output directories (generated content — not committed)
+output/
+code-reviews/
+*.log
+
+# Environment / secrets — NEVER commit these
+.env
+*.env
+secrets.json
+config.local.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
